@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Learning\\Quiz App\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{64A54743-6AC9-4AD6-A85E-9F271A10AFA3}|Quiz App\\Quiz App.csproj|d:\\learning\\quiz app\\quiz app\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64A54743-6AC9-4AD6-A85E-9F271A10AFA3}|Quiz App\\Quiz App.csproj|solutionrelative:quiz app\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{64A54743-6AC9-4AD6-A85E-9F271A10AFA3}|Quiz App\\Quiz App.csproj|d:\\learning\\quiz app\\quiz app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64A54743-6AC9-4AD6-A85E-9F271A10AFA3}|Quiz App\\Quiz App.csproj|solutionrelative:quiz app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,12 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Question.cs",
+              "DocumentMoniker": "D:\\Learning\\Quiz App\\Quiz App\\Question.cs",
+              "RelativeDocumentMoniker": "Quiz App\\Question.cs",
+              "ToolTip": "D:\\Learning\\Quiz App\\Quiz App\\Question.cs",
+              "RelativeToolTip": "Quiz App\\Question.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T13:42:49.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Learning\\Quiz App\\Quiz App\\Program.cs",
               "RelativeDocumentMoniker": "Quiz App\\Program.cs",
               "ToolTip": "D:\\Learning\\Quiz App\\Quiz App\\Program.cs",
               "RelativeToolTip": "Quiz App\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-09T13:39:25.517Z",
               "EditorCaption": ""
