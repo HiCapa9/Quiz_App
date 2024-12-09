@@ -15,7 +15,27 @@ namespace Quiz_App
             this.questions = questions;
         }
 
-        public void DisplayQuestion(Question question) {
+        public void StartQuiz() {
+            Console.WriteLine("Welcome to the quiz");
+            int questionNumber = 1;
+
+            foreach (Question question in questions){
+                Console.WriteLine($"Question {questionNumber++}");
+                DisplayQuestion(question);
+                int userChoice = GetUserChoice();
+
+                if (question.IsAnswerCorrect(userChoice))
+                {
+                    Console.WriteLine("Correct");
+                }
+                else {
+                    Console.WriteLine($"Wrong! The correct answer was: {question.Answers[question.CorrectAnswerIndex]}");
+                }
+            }
+
+        }
+
+        private void DisplayQuestion(Question question) {
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine(question.QuestionText);
             Console.ResetColor();
@@ -28,13 +48,6 @@ namespace Quiz_App
                 Console.WriteLine($". {question.Answers[i]}");
             }
 
-            if (GetUserChoice() == question.CorrectAnswerIndex)
-            {
-                Console.WriteLine("Correct!");
-            }
-            else {
-                Console.WriteLine("Incorrect");
-            }
 
         }
 
